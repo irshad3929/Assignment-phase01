@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="code-editor">
+        <h1>Welcome to Code Editor</h1>
+        
+        <div class="code-container" id="code-container" contenteditable="true">
+            <code id="code">
+                function greet() {
+                    console.log('Hello, Project!');
+                }
+            </code>
+        </div>
+
+        <div class="code-taskbar">
+            <button id="copy-button">Copy</button>
+            <button id="save-button">Save</button>
+            <button id="lock-button">Lock</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
